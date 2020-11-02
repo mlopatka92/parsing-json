@@ -72,7 +72,7 @@ public class JsonParsingService implements ParsingService {
     private TransformationDetails createDetails(JsonObject detailsSource, Map<String, String> config,
                                                 Map<String, String> postActions) {
         Map<String, Object> mappingDetails = new HashMap<>();
-        config.forEach((k, v) -> mappingDetails.put(v, applyMapper(k, detailsSource)));
+        config.forEach((k, v) -> mappingDetails.put(k, applyMapper(v, detailsSource)));
 
         return new TransformationDetails(mappingDetails, postActions);
     }

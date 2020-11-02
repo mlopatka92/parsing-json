@@ -15,14 +15,6 @@ class ParsingServiceTest {
     private final ParsingService parsingService = new JsonParsingService("src/test/resources/");
 
     @Test
-    public void shouldCreateTransformationDetails() {
-        List<TransformationDetails> details =
-                parsingService.loadTransformationDetails(Lists.newArrayList(personsTransformation()));
-
-        assertThat(details.size()).isEqualTo(5);
-    }
-
-    @Test
     public void shouldCreateFromResource() {
         //given
         String templatePath = "complexTemplate.json";
@@ -40,9 +32,9 @@ class ParsingServiceTest {
         String detailsPath = "fromPersons.json";
 
         Map<String, String> mapping = new HashMap<>();
-        mapping.put("name", "firstname");
-        mapping.put("surname", "lastname");
-        mapping.put("productName:product", "private.values[0].productType");
+        mapping.put("firstname", "name");
+        mapping.put("lastname", "surname");
+        mapping.put("private.values[0].productType", "productName:product");
 
         Map<String, String> postAction = new HashMap<>();
         postAction.put("private.id", "sup:id-6");
@@ -58,37 +50,12 @@ class ParsingServiceTest {
         String detailsPath = "fromDocuments.json";
 
         Map<String, String> mapping = new HashMap<>();
-        mapping.put("type", "documents[0].name");
-        mapping.put("number", "aggregates[id=2].name");
+        mapping.put("documents[0].name", "type");
+        mapping.put("aggregates[id=2].name", "number");
 
         Map<String, String> postAction = new HashMap<>();
         postAction.put("code", "hardcoded:1234");
 
         return new ParsingDetails(detailsPath, mapping, postAction);
     }
-
-    @Test
-    public void shouldTransformFile() {
-        //given
-        String pathToTemplate = "template01.json";
-        String desPath = "transformed01.json";
-        TransformationDetails transformData = new TransformationDetails(prepareTransformData(), new HashMap<>());
-
-        //when
-        parsingService.transformTemplate(pathToTemplate, desPath, Lists.newArrayList(transformData));
-
-        //then
-        File resultFile = new File("src/test/resources/result/" + desPath);
-        assertThat(resultFile).exists();
-        assertThat(resultFile).hasContent("{\"name\":\"Eve\",\"surname\":\"surname\",\"age\":\"25\"}");
-    }
-
-    private Map<String, Object> prepareTransformData() {
-        Map<String, Object> transformData = new HashMap<>();
-        transformData.put("name", "Eve");
-        transformData.put("age", 25);
-
-        return transformData;
-    }
-
 }
