@@ -1,0 +1,261 @@
+[
+  {
+    "firstname": "Teodor",
+    "lastname": "Waltz",
+    "code": "code",
+    "private": {
+      "id": "241314",
+      "cur": "CHF",
+      "values": [
+        {
+          "acc": "CH50167866BCFC8OYT8TA",
+          "productType": "abc1"
+        }
+      ]
+    },
+    "age": 0,
+    "documents": [
+      {
+        "name": "document",
+        "validFrom": "2020-11-10",
+        "validTo": "2021-11-10",
+        "type": {
+          "legal": true,
+          "importance": "importance"
+        }
+      }
+    ],
+    "aggregates": [
+      {
+        "id": "1",
+        "name": "agg1"
+      },
+      {
+        "id": "2",
+        "name": "agg2"
+      }
+    ]
+  },
+  {
+    "firstname": "Amanda",
+    "lastname": "Waltz",
+    "code": "code",
+    "private": {
+      "id": "734625",
+      "cur": "CHF",
+      "values": [
+        {
+          "acc": "CH8985847Z5NG2R7BMUGC",
+          "productType": "w-13"
+        }
+      ]
+    },
+    "age": 0,
+    "documents": [
+      {
+        "name": "document",
+        "validFrom": "2020-11-10",
+        "validTo": "2021-11-10",
+        "type": {
+          "legal": true,
+          "importance": "importance"
+        }
+      }
+    ],
+    "aggregates": [
+      {
+        "id": "1",
+        "name": "agg1"
+      },
+      {
+        "id": "2",
+        "name": "agg2"
+      }
+    ]
+  },
+  {
+    "firstname": "Teodor",
+    "lastname": "Waltz",
+    "code": "code",
+    "private": {
+      "id": "634836",
+      "cur": "CHF",
+      "values": [
+        {
+          "acc": "CH8493576XZWBM0UXOKSJ",
+          "productType": "o-55"
+        }
+      ]
+    },
+    "age": 0,
+    "documents": [
+      {
+        "name": "document",
+        "validFrom": "2020-11-10",
+        "validTo": "2021-11-10",
+        "type": {
+          "legal": true,
+          "importance": "importance"
+        }
+      }
+    ],
+    "aggregates": [
+      {
+        "id": "1",
+        "name": "agg1"
+      },
+      {
+        "id": "2",
+        "name": "agg2"
+      }
+    ]
+  },
+  {
+    "firstname": "Amanda",
+    "lastname": "Waltz",
+    "code": "code",
+    "private": {
+      "id": "772620",
+      "cur": "CHF",
+      "values": [
+        {
+          "acc": "CH1416634HZPRMKWMK9D6",
+          "productType": "abc1"
+        }
+      ]
+    },
+    "age": 0,
+    "documents": [
+      {
+        "name": "document",
+        "validFrom": "2020-11-10",
+        "validTo": "2021-11-10",
+        "type": {
+          "legal": true,
+          "importance": "importance"
+        }
+      }
+    ],
+    "aggregates": [
+      {
+        "id": "1",
+        "name": "agg1"
+      },
+      {
+        "id": "2",
+        "name": "agg2"
+      }
+    ]
+  },
+  {
+    "firstname": "name",
+    "lastname": "surname",
+    "code": "1234",
+    "private": {
+      "id": "id",
+      "cur": "CHF",
+      "values": [
+        {
+          "acc": "acc",
+          "productType": "type"
+        }
+      ]
+    },
+    "age": 0,
+    "documents": [
+      {
+        "name": "ID",
+        "validFrom": "2020-11-10",
+        "validTo": "2021-11-10",
+        "type": {
+          "legal": true,
+          "importance": "importance"
+        }
+      }
+    ],
+    "aggregates": [
+      {
+        "id": "1",
+        "name": "agg1"
+      },
+      {
+        "id": "2",
+        "name": "123456"
+      }
+    ]
+  },
+  {
+    "firstname": "name",
+    "lastname": "surname",
+    "code": "1234",
+    "private": {
+      "id": "id",
+      "cur": "CHF",
+      "values": [
+        {
+          "acc": "acc",
+          "productType": "type"
+        }
+      ]
+    },
+    "age": 0,
+    "documents": [
+      {
+        "name": "passport",
+        "validFrom": "2020-11-10",
+        "validTo": "2021-11-10",
+        "type": {
+          "legal": true,
+          "importance": "importance"
+        }
+      }
+    ],
+    "aggregates": [
+      {
+        "id": "1",
+        "name": "agg1"
+      },
+      {
+        "id": "2",
+        "name": "WD-40"
+      }
+    ]
+  },
+  {
+    "firstname": "name",
+    "lastname": "surname",
+    "code": "1234",
+    "private": {
+      "id": "id",
+      "cur": "CHF",
+      "values": [
+        {
+          "acc": "acc",
+          "productType": "type"
+        }
+      ]
+    },
+    "age": 0,
+    "documents": [
+      {
+        "name": "passport",
+        "validFrom": "2020-11-10",
+        "validTo": "2021-11-10",
+        "type": {
+          "legal": true,
+          "importance": "importance"
+        }
+      }
+    ],
+    "aggregates": [
+      {
+        "id": "1",
+        "name": "agg1"
+      },
+      {
+        "id": "2",
+        "name": "ABC-123"
+      }
+    ]
+  }
+]

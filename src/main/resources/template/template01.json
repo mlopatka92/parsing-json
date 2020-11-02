@@ -1,0 +1,14 @@
+{
+  "name": "name",
+  "surname": "surname",
+  "age": 0,
+  "document" : {
+    "name": "document",
+    "validFrom" : "2020-11-10",
+    "validTo": "2021-11-10",
+    "type": {
+      "legal": true,
+      "importance": "HIGH"
+    }
+  }
+}

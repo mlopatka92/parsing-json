@@ -1,0 +1,14 @@
+[
+  {
+    "type": "ID",
+    "number": "123456"
+  },
+  {
+    "type": "passport",
+    "number": "WD-40"
+  },
+  {
+    "type": "passport",
+    "number": "ABC-123"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "firstname": "name",
+  "lastname": "surname",
+  "code": "code",
+  "private": {
+    "id": "id",
+    "cur": "CHF",
+    "values": [
+      {
+        "acc": "acc",
+        "productType": "type"
+      }
+    ]
+  },
+  "age": 0,
+  "documents": [
+    {
+      "name": "document",
+      "validFrom": "2020-11-10",
+      "validTo": "2021-11-10",
+      "type": {
+        "legal": true,
+        "importance": "importance"
+      }
+    }
+  ],
+  "aggregates":[
+    {
+      "id": "1",
+      "name": "agg1"
+    },
+    {
+      "id": "2",
+      "name": "agg2"
+    }
+  ]
+}
